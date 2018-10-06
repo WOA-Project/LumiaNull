@@ -39,13 +39,17 @@ WdfCoInstaller$KMDFCOINSTALLERVERSION$.dll =1
 
 [Standard.NT$ARCH$]
 %TouchTestNull.DeviceDesc% = LumiaNull_Device, {1ED875DA-D851-42BE-9DFD-527D97178147}\TOUCH_TEST
+%TouchTestNull.DeviceDesc% = LumiaNull_Device, {1ED875DA-D851-42BE-9DFD-527D97178147}\Touch_Test
+%TouchNull.DeviceDesc%     = LumiaNull_Device, {1ED875DA-D851-42BE-9DFD-527D97178147}\Touch_Test
 %hdmidpiNull.DeviceDesc%   = LumiaNull_Device, ACPI\MSHW1007
 %NokiaAttsNull.DeviceDesc% = LumiaNull_Device, ACPI\NOKIA_ATTS
 %OddtRegNull.DeviceDesc%   = LumiaNull_Device, ACPI\ODDT_REG
 %OddtVibNull.DeviceDesc%   = LumiaNull_Device, ACPI\ODDT_VIB
 %OddtCpuNull.DeviceDesc%   = LumiaNull_Device, ACPI\ODDT_CPU
 %EnoGpioNull_DeviceDesc%   = LumiaNull_Device, ACPI\ENOGPIO
+%EnoEmNull_DeviceDesc%     = LumiaNull_Device, ACPI\NOKIA_ENOEM
 %WPCrasherNull_DeviceDesc% = LumiaNull_Device, ACPI\WP_CRASHER
+%QcGPUNull_DeviceDesc%     = LumiaNull_Device, ACPI\QCOM_GPU
 
 [LumiaNull_Device.NT]
 CopyFiles=Drivers_Dir
@@ -93,10 +97,13 @@ LumiaNull.DeviceDesc     = "LumiaNull Device"
 LumiaNull.SVCDESC        = "LumiaNull Service"
 
 TouchTestNull.DeviceDesc = "Touch Driver Test Interface Device"
+TouchNull.DeviceDesc     = "Touch Driver Interface Device"
 hdmidpiNull.DeviceDesc   = "HDMI to Displayport driver"
+QcGPUNull_DeviceDesc     = "Qualcomm GPU Device"
 NokiaAttsNull.DeviceDesc = "Nokia ATTS Device"
 OddtRegNull.DeviceDesc   = "Nokia Care Diagnostic Register Device"
 OddtVibNull.DeviceDesc   = "Nokia Care Diagnostic Vibration Device"
 OddtCpuNull.DeviceDesc   = "Nokia Care Diagnostic CPU Device"
-EnoGpioNull_DeviceDesc   = "ENO GPIO Device"
+EnoGpioNull_DeviceDesc   = "Nokia Care Diagnostic ENO GPIO Device"
+EnoEmNull_DeviceDesc     = "Nokia Care Diagnostic ENO EM Device"
 WPCrasherNull_DeviceDesc = "Nokia WIndows Phone Crasher Test Device"
