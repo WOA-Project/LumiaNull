@@ -20,4 +20,4 @@ Current devices we null:
 | Nokia Care Diagnostics ODDT CPU Device       | ACPI\ODDT_CPU                                     |
 | Nokia Care Diagnostics ENO GPIO Device       | ACPI\ENOGPIO                                      |
 | Nokia Care Diagnostics ENO EM Device         | ACPI\NOKIA_ENOEM                                  |
-| Nokia Windows Phone Crasher Device           | ACPI\QCOM_GPU                                     |
+| Nokia Windows Phone Crasher Device           | ACPI\WP_CRASHER                                   |
