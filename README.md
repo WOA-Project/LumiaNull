@@ -21,3 +21,22 @@ Current devices we null:
 | Nokia Care Diagnostics ENO GPIO Device       | ACPI\ENOGPIO                                      |
 | Nokia Care Diagnostics ENO EM Device         | ACPI\NOKIA_ENOEM                                  |
 | Nokia Windows Phone Crasher Device           | ACPI\WP_CRASHER                                   |
+| Touch Panel Power Stub Device                | ACPI\MSHW1024                                     |
+| mmo security driver                          | ACPI\MSHW1001                                     |
+| Origa2Auth Device                            | ACPI\MSHW1002                                     |
+| ice5lp_2k Device                             | ACPI\MSHW1006                                     |
+| Microsoft Eno gpio Driver                    | ACPI\MSHW1008                                     |
+| Type C MUX port driver                       | ACPI\MSHW1009                                     |
+| Stub Driver (100C)                           | ACPI\MSHW100C                                     |
+| Stub Driver (100D)                           | ACPI\MSHW100D                                     |
+| Icaros Extra Sensory Perception Driver       | ACPI\MSHW1010                                     |
+| Icaros_KMD_ESP_Thermal Device                | ACPI\MSHW1011                                     |
+| Stub Driver (1014)                           | ACPI\MSHW1014                                     |
+| hall_kmd Device                              | ACPI\MSHW1015                                     |
+| MMO VisaST Device                            | ACPI\MSHW1019                                     |
+| MMO Activity Detection driver                | ACPI\MSHW101C                                     |
+| MMO Step Counter driver                      | ACPI\MSHW101D                                     |
+| MMO Gesture Recognition driver               | ACPI\MSHW101E                                     |
+| Sensor Algorithm Control driver              | ACPI\MSHW101F                                     |
+| Activity Driver                              | ACPI\MSHW1020                                     |
+| Pedometer Driver                             | ACPI\MSHW1021                                     |
